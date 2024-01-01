@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen {
+    height: 60px;
+    background-color: blue;
+    width: 300px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 30px;
+}
+
+.screen--show {
+margin-right: 10px;
+}
+
+.numbers {
+    display: flex;
+    font-weight: bold;
+    font-size: 50px;
+    width: 300px;
+    justify-content: space-around;
+    text-align: center;
+    background-color: aqua;
+}
+
+button {
+    border: 1px solid blue;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    /* margin: 0px; */
+}
+
+.numbers--first_row, .numbers--second_row, .numbers--third_row, .numbers--fourth_row {
+margin-top: 20px;
+gap: 20px;
+display: flex;
+flex-direction: column;
+}
+
+.numbers--fourth_row {
+    margin-bottom: 20px;
+}
